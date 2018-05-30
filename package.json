@@ -1,7 +1,6 @@
 {
   "dependencies": {
     "bootstrap": "^4.1.1",
-    "fabric.js": "^0.0.2",
     "jquery": "^3.3.1"
   }
 }
