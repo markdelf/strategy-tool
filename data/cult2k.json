@@ -1,0 +1,173 @@
+{
+    "name": "Mark",
+    "faction": "GSC",
+    "units": [
+        {
+            "name": "Neophyte Hybrids", 
+            "layout": "ranks-5",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "name": "Neophyte Hybrids", 
+            "layout": "ranks-5",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "name": "Neophyte Hybrids",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10, 
+                    "layout": "ranks-5"
+                }
+            ]
+        },
+        {
+            "name": "Primus",
+            "models": [
+                {
+                    "name": "Primus",
+                    "baseSize": 28,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Primus",
+            "models": [
+                {
+                    "name": "Primus",
+                    "baseSize": 28,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Neophyte Hybrids",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10, 
+                    "layout": "ranks-5"
+                }
+            ]
+        },
+        {
+            "name": "Neophyte Hybrids", 
+            "layout": "ranks-5",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "name": "Neophyte Hybrids", 
+            "layout": "ranks-5",
+            "models": [
+                {
+                    "name": "Neophyte",
+                    "baseSize": 28,
+                    "qty": 10
+                }
+            ]
+        },
+        {
+            "name": "Genestealers",
+            "layout": "ranks-4",
+            "models": [
+                {
+                    "name": "Genestealer",
+                    "baseSize": 32,
+                    "qty": 20
+                }
+            ]
+        },
+        {
+            "name": "Primus",
+            "models": [
+                {
+                    "name": "Primus",
+                    "baseSize": 28,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Primus",
+            "models": [
+                {
+                    "name": "Primus",
+                    "baseSize": 28,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Hive Tyrant",
+            "models": [
+                {
+                    "name": "Hive Tyrant",
+                    "baseSize": 40,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Swarmlord",
+            "models": [
+                {
+                    "name": "Swarmlord",
+                    "baseSize": 32,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Tyrannofex",
+            "models": [
+                {
+                    "name": "Tyrannofex",
+                    "baseSize": 50,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Tyrannofex",
+            "models": [
+                {
+                    "name": "Tyrannofex",
+                    "baseSize": 50,
+                    "qty": 1
+                }
+            ]
+        },
+        {
+            "name": "Mawloc",
+            "models": [
+                {
+                    "name": "Mawloc",
+                    "baseSize": 50,
+                    "qty": 1
+                }
+            ]
+        }
+    ]
+}

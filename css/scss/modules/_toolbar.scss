@@ -1,0 +1,12 @@
+.main-controls {
+    background-color: #eee;
+    margin-bottom: 1px;
+    padding: 2px;
+    position: relative;
+    z-index: 10;
+    .btn {
+        .fas {
+            margin-top: 4px;
+        }
+    }
+}

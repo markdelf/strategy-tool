@@ -1,12 +1,43 @@
 <html>
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
  <body style="background-color: #111">
-    <div id="container">
-        <canvas id="boardElement" style="border: 1px solid #333;" width="1200" height="800"></canvas>
+    <div class="btn-toolbar main-controls" role="toolbar" aria-label="Toolbar with button groups">
+        
+        <div class="btn-group btn-group-toggle mr-2"  data-toggle="buttons">
+            <label class="btn btn-secondary active">
+                <input type="radio" name="options" id="option1" autocomplete="off" checked> Hide Ranges
+            </label>
+            <label class="btn btn-secondary">
+                <input type="radio" name="options" id="option2" autocomplete="off"> Show Ranges
+            </label>
+        </div>
+        
+        <div class="btn-group btn-group-toggle mr-2"  data-toggle="buttons">
+            <label class="btn btn-secondary">
+                <input type="checkbox" name="options" id="option1" autocomplete="off"
+                data-toggle="tooltip" data-placement="bottom" title="Move"> <i class="fas fa-walking"></i>
+            </label>
+            <label class="btn btn-secondary">
+                <input type="checkbox" name="options" id="option2" autocomplete="off"> <i class="fas fa-walking"></i><i class="fas fa-walking"></i>
+            </label>
+            <label class="btn btn-secondary">
+                <input type="checkbox" name="options" id="option2" autocomplete="off"> <i class="fas fa-crosshairs"></i>
+            </label>
+            <label class="btn btn-secondary">
+                <input type="checkbox" name="options" id="option2" autocomplete="off"> <i class="fas fa-hand-rock"></i>
+            </label>
+        </div>
     </div>
+    <canvas id="boardElement" style="border: 1px solid #333; margin: 0px auto;" width="1200" height="800"></canvas>
 
 
-    
     <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js" type="text/javascript"></script>
+
     <script src="js/entity/unit.js" type="text/javascript"></script>
     <script src="js/entity/model.js" type="text/javascript"></script>
     <script src="js/entity/army.js" type="text/javascript"></script>
@@ -16,8 +47,9 @@
     <script src="js/utility/die_roll.js" type="text/javascript"></script>
 
 
-    <script src="node_modules/fabric/dist/fabric.min.js" type="text/javascript"></script>
+    <script src="node_modules/fabric/dist/fabric.js" type="text/javascript"></script>
 
+    <script src="js/utilities.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
  </body>
 </html>

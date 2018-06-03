@@ -23,6 +23,15 @@ Model.prototype = {
     getCanvasObj() {
         return this.canvasObj;
     },
+    createCanvasObj(baseSize, unitColor, left, top) {
+        return new fabric.Circle({
+            radius: baseSize, fill: unitColor, left: left, top: top,
+            selectable: true,
+                    
+            strokeWidth: 1,
+            stroke: "#000000",
+        });
+    },
     baseSize: 32,
     name: "Unnamed",
     getRef: function() {
